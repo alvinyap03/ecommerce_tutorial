@@ -1,0 +1,163 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #636556;
+}
+
+.container {
+    width: 600px;
+    margin: 25px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container2 {
+    margin: 25px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 div {
+    background-color: #b5c474;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.container2 div button {  
+    border: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #040000;
+    font-size: 40px;
+}
+
+/* text label */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+/* full button */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="description"],
+input[type="file"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: 20%;
+}
+
+
+form {
+    text-align: center;
+}
+
+/* logo */
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* error message */
+.error-message {
+    color: #ff3333;
+    margin-top: 10px;
+}
+
+
+.logout-button {
+    background-color: #e1192de6;
+}
+
+.update-button {
+    background-color: #12d857;
+}
+
+.login-button {
+    background-color: #12d857;
+}
+
+.insert-button {
+    background-color: #12d857;
+}
+
+.post-button {
+    background-color: #12d857;
+}
+
+.delete-button {
+    background-color: #c91313;
+}
+
+.back-button {
+    background-color: #938f77;
+}
+
+
+.product-container {
+    border: 2px solid #ccc; /* Border around each product */
+    margin-bottom: 20px; /* Spacing between products */
+    padding: 10px; /* Padding within each product container */
+}
+
+.product-button {
+    margin-top: 10px; /* Space between product details and button */
+}
+
+.product-button button {
+    background-color: #12d857; /* Button color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px; /* Adjust this value to increase or decrease the spacing */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.total-price {
+    margin-top: 20px;
+}
+
+.inline-label-input {
+    display: inline-block;
+    text-align: right; /* Align label text to the right */
+    width: 30%; /* Adjust width as needed */
+    margin-right: 10px; /* Add some margin to separate label and input */
+}
